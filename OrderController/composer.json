@@ -1,6 +1,6 @@
 {
-  "name": "magento/sample-module-webapi-client",
-  "description": "A module to demonstrate REST API functionality",
+  "name": "kirukan/ordercontroller",
+  "description": "A module to demonstrate fetch Order information",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": [
@@ -9,12 +9,12 @@
   ],
   "require": {
     "php": "~5.5.0|~5.6.0|~7.0.0",
-    "magento/module-catalog": "~100.0"
+    "magento/module-sales": "~100.1"
   },
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Magento\\SampleWebapiClient\\": ""
+      "Kirukan\\OrderController\\": ""
     }
   }
 }
