@@ -1,6 +1,6 @@
 {
   "name": "kirukan/ordercontroller",
-  "description": "A module to demonstrate fetch Order information",
+  "description": "A module to demonstrate fetch Order information from Magento 2.1.x",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": [
